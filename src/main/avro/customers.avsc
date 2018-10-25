@@ -1,0 +1,31 @@
+{
+  "type" : "record",
+  "name" : "customer_schema",
+  "namespace" : "com.craftdemo.spark.avro",
+  "fields" : [ {
+    "name" : "customerid",
+    "type" : "string",
+    "doc"  : "Customer id"
+  }, {
+    "name" : "name",
+    "type" : "string",
+    "doc"  : "The name of the customer"
+  }, {
+    "name" : "street",
+    "type" : "string",
+    "doc"  : "The street address of the customer"
+  }, {
+    "name" : "city",
+    "type" : "string",
+    "doc"  : "The city address of the customer"
+  }, {
+    "name" : "state",
+    "type" : "string",
+    "doc"  : "The state address of the customer"
+  }, {
+    "name" : "zip",
+    "type" : "string",
+    "doc"  : "The zip code address of the customer"
+  } ],
+  "doc:" : "A basic schema for storing Customer address"
+}

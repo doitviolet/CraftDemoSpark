@@ -1,0 +1,39 @@
+{
+  "type" : "record",
+  "name" : "state_sales_schema",
+  "namespace" : "com.kafkaProducer",
+  "fields" : [ {
+    "name" : "customerid",
+    "type" : "string",
+    "doc"  : "Id of the customer"
+  }, {
+    "name" : "name",
+    "type" : "string",
+    "doc"  : "The name of the customer"
+  }, {
+    "name" : "street",
+    "type" : "string",
+    "doc"  : "The street address"
+  }, {
+    "name" : "city",
+    "type" : "string",
+    "doc"  : "The city address"
+  }, {
+    "name" : "state",
+    "type" : "string",
+    "doc"  : "The state address"
+  }, {
+    "name" : "zip",
+    "type" : "string",
+    "doc"  : "The zip code address"
+  }, {
+    "name" : "salesprice",
+    "type" : "float",
+    "doc"  : "The sales price"
+  }, {
+    "name" : "timestamp",
+    "type" : "long",
+    "doc"  : "Unix epoch time in seconds"
+  } ],
+  "doc:" : "A basic schema for storing state sales"
+}

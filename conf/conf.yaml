@@ -1,0 +1,17 @@
+# Path to sales avro file
+sales.avro.path.file: "/Users/axg7969/SparkProject/src/main/avro/sales.avro"
+
+# Path to customer avro file
+customers.avro.path.file: "/Users/axg7969/SparkProject/src/main/avro/customers.avro"
+
+# Output path
+output.path: "/Users/axg7969/SparkProject/src/main/avro/output"
+
+# Kafka Topic
+kafka.topic: "customer-sales-nrt"
+
+# Kafka Broker
+kafka.broker: "localhost:9092"
+
+# The path to the directory containing the batch data
+file.path: "/Users/axg7969/SparkProject/src/main/avro/output"

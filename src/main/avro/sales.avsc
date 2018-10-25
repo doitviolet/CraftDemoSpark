@@ -1,0 +1,19 @@
+{
+  "type" : "record",
+  "name" : "sales_schema",
+  "namespace" : "com.craftdemo.spark.avro",
+  "fields" : [ {
+    "name" : "customerid",
+    "type" : "string",
+    "doc"  : "The customer Id"
+  }, {
+    "name" : "salesprice",
+    "type" : "float",
+    "doc"  : "The sales price"
+  }, {
+    "name" : "timestamp",
+    "type" : "long",
+    "doc"  : "Unix epoch time in seconds"
+  } ],
+  "doc:" : "A basic schema for storing cusotmer sales"
+}
