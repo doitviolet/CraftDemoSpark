@@ -1,2 +1,2 @@
 # CraftDemo - Apache Spark 
-Spark Craft Demo
+-- Work in Progress--
